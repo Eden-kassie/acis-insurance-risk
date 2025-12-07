@@ -1,0 +1,17 @@
+/MachineLearningRating_v3.txt
+# Ignore raw data
+data/raw/*
+!data/raw/*.dvc
+
+# Ignore processed data
+data/processed/*
+
+# Ignore environments and system files
+venv/
+.env/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# Ignore DVC cache
+.dvc/cache/
