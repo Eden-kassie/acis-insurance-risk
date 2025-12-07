@@ -1,17 +1,31 @@
-/MachineLearningRating_v3.txt
-# Ignore raw data
+# Ignore OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Ignore raw datasets (DVC will track)
 data/raw/*
 !data/raw/*.dvc
 
-# Ignore processed data
+# Ignore processed datasets
 data/processed/*
 
-# Ignore environments and system files
-venv/
-.env/
-__pycache__/
-.ipynb_checkpoints/
-.DS_Store
-
-# Ignore DVC cache
+# DVC cache
 .dvc/cache/
