@@ -1,0 +1,12 @@
+# .gitignore
+__pycache__/
+*.pyc
+.env
+data/insurance.txt
+outputs/
+.ipynb_checkpoints
+*.sqlite
+.vscode/
+dvc_storage/
+
+
